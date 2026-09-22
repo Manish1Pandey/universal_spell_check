@@ -1,0 +1,22 @@
+name: universal_spell_check_example
+description: "Demonstrates every feature of the universal_spell_check plugin."
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  universal_spell_check:
+    path: ../
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

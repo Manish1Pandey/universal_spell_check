@@ -1,0 +1,60 @@
+name: universal_spell_check
+description: "Spell check for Flutter TextFields on web, macOS, Windows and Linux too: native checkers on desktop, a pure-Dart Hunspell engine on the web."
+version: 0.1.0
+homepage: https://github.com/Manish1Pandey/universal_spell_check
+repository: https://github.com/Manish1Pandey/universal_spell_check
+issue_tracker: https://github.com/Manish1Pandey/universal_spell_check/issues
+topics:
+  - spell-check
+  - text-field
+  - hunspell
+  - desktop
+  - web
+
+screenshots:
+  - description: "Web: misspelled words underlined by the bundled pure-Dart Hunspell engine."
+    path: screenshots/web_underlines.png
+  - description: "Web: right-click menu with Hunspell suggestions and Ignore."
+    path: screenshots/web_context_menu.png
+  - description: "macOS: NSSpellChecker marks misspellings in a Flutter TextField."
+    path: screenshots/macos_underlines.png
+  - description: "macOS: context menu with NSSpellChecker suggestions."
+    path: screenshots/macos_context_menu.png
+
+environment:
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  http: ^1.2.0
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - dictionaries/en_US.aff
+    - dictionaries/en_US.dic
+  plugin:
+    platforms:
+      android:
+        dartPluginClass: UniversalSpellCheckMobile
+      ios:
+        dartPluginClass: UniversalSpellCheckMobile
+      linux:
+        pluginClass: UniversalSpellCheckPlugin
+        dartPluginClass: LinuxUniversalSpellCheck
+      macos:
+        pluginClass: UniversalSpellCheckPlugin
+      windows:
+        pluginClass: UniversalSpellCheckPluginCApi
+      web:
+        pluginClass: UniversalSpellCheckWeb
+        fileName: universal_spell_check_web.dart

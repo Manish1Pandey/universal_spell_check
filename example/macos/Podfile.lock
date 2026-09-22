@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - universal_spell_check (0.1.0):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - universal_spell_check (from `Flutter/ephemeral/.symlinks/plugins/universal_spell_check/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  universal_spell_check:
+    :path: Flutter/ephemeral/.symlinks/plugins/universal_spell_check/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+  universal_spell_check: 1378731ecbc85e0137541b1a52dd6d5affb97d6f
+
+PODFILE CHECKSUM: 54d867c82ac51cbd61b565781b9fada492027009
+
+COCOAPODS: 1.16.2
