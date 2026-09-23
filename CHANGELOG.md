@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Documentation only: added a demo GIF showing misspellings underlined and a suggestion applied. No code changes.
+
 ## 0.1.0
 
 * Initial release.

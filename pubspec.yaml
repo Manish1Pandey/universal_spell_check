@@ -1,6 +1,6 @@
 name: universal_spell_check
 description: "Spell check for Flutter TextFields on web, macOS, Windows and Linux too: native checkers on desktop, a pure-Dart Hunspell engine on the web."
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Manish1Pandey/universal_spell_check
 repository: https://github.com/Manish1Pandey/universal_spell_check
 issue_tracker: https://github.com/Manish1Pandey/universal_spell_check/issues
