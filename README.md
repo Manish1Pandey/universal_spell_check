@@ -2,6 +2,10 @@
 
 Spell checking for Flutter `TextField`s on **every** platform.
 
+![Typing misspelled words in a Flutter web TextField: red underlines appear, right-click shows suggestions, clicking one fixes the word](screenshots/demo.gif)
+
+*Flutter web, with the bundled pure-Dart Hunspell engine: misspellings get underlined as you type, right-click offers suggestions, and picking one replaces the word.*
+
 ![Right-click suggestions in a Flutter web TextField](screenshots/web_context_menu.png)
 
 Flutter's built-in spell check (`SpellCheckConfiguration` +

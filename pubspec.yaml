@@ -12,6 +12,8 @@ topics:
   - web
 
 screenshots:
+  - description: "Animated: typing on web underlines misspellings, right-click suggests a fix, clicking applies it."
+    path: screenshots/demo.gif
   - description: "Web: misspelled words underlined by the bundled pure-Dart Hunspell engine."
     path: screenshots/web_underlines.png
   - description: "Web: right-click menu with Hunspell suggestions and Ignore."
