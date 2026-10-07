@@ -32,7 +32,7 @@ locale falls back to the Hunspell engine if a dictionary exists for it
 
 ```yaml
 dependencies:
-  universal_spell_check: ^0.1.0
+  universal_spell_check: ^0.1.1
 ```
 
 ## Usage
