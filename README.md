@@ -135,3 +135,9 @@ Supported `.aff` features: `SET`, `FLAG` (char/long/num/UTF-8), `AF`,
 size 60) and uses its own permissive license, in
 [`dictionaries/LICENSE-en_US.txt`](dictionaries/LICENSE-en_US.txt). The
 package code is MIT.
+
+## Links
+
+- **Documentation and live demo:** [flutterdev.in/packages/universal_spell_check](https://flutterdev.in/packages/universal_spell_check/)
+- **More Flutter packages:** [flutterdev.in](https://flutterdev.in)
+- **Learn data structures & algorithms in Dart:** [Algoistan](https://algoistan.flutterdev.in)
